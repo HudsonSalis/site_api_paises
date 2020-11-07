@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="api.css">
+    <title>API</title>
+</head>
+<body>
+    
+    <section class="main">
+        
+        <div class="menu">
+
+            <input type="checkbox" id="menuzin">
+            <label for="menuzin">
+            <div class="eu">
+                <div class="sobremim"> 
+                   <h1> Site feito por Hudson Salis Evangelista
+                       <span class="curso">4º  Período - ADS <br>Programação para Internet ||</span>
+                   </h1>
+                   <img src="imagens/eu.png">
+                </div>
+            </div>
+            <img src="imagens/menu.png" width="50" height="50">
+            </label>
+        </div>
+
+        <div class="titulo">
+           <h1>Api sobre os países</h1>
+        </div>
+        <div class="container-um">
+            <div class="titulo-container">
+                <h2>Selecione o país para saber suas informações</h2>
+            </div>
+
+            <div class="pesquisa">
+               <select id="allcountry">
+               </select>
+               <button type="text" id="btnEnviar"><img src="imagens/lupa.png" width="25" height="23">
+               </button>
+            </div>
+
+        </div>
+
+        <div class="container-dois">
+            
+            <div class="cont um">
+                <div class="icone"><img src="imagens/paises.png" width="35" height="35"></div>
+                <div class="tipo"><h4>Nome</h4></div>
+                <div id="nome"></div>
+            </div>
+
+            <div class="cont dois">
+                <div class="icone"><img src="imagens/brazil.png" width="35" height="35"></div>
+                <div class="tipo"><h4>Área</h4></div>
+                <div id="area"></div>
+             </div>
+
+            <div class="cont dois">
+                <div class="icone"><img src="imagens/capital.png" width="35" height="35"></div>
+                <div class="tipo"><h4>Capital</h4></div>
+               <div id="capital"></div>
+            </div>
+               
+            
+           
+      
+            <div class="cont dois">
+                <div class="icone"><img src="imagens/continents.png" width="35" height="35"></div>
+                <div class="tipo"><h4>Continente</h4></div>
+                <div id="continente"></div>
+            </div>
+            
+            <div class="cont">
+                
+                <div id="bandeira"></div>            
+            </div>
+        
+            <div class="cont dois">
+                <div class="icone"><img src="imagens/populacao.png" width="35" height="35"></div>
+                <div class="tipo"><h4>População</h4></div>
+                <div id="populacao"></div>
+            </div>
+
+            <div class="cont dois">
+                <div class="icone"><img src="imagens/money.png" width="35" height="35"></div><div class="tipo"><h4>Moeda e Símbolo</h4></div>
+                <div id="moeda"></div>
+                <span class="simbolo-span">
+                   <div id="simbolo"></div>
+                </span>
+            </div>
+
+
+            <div class="cont dois">
+                 <div class="icone"><img src="imagens/chat.png" width="35" height="35"></div><div class="tipo"><h4>Idioma:</h4></div>
+                    <div id="idioma"></div> 
+            </div>
+        
+    
+        </div>
+    
+
+
+    </div>
+
+
+    </section>
+
+
+    <script src="api.js"></script>
+</body>
+</html>

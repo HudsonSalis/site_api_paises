@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F3F3F3;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;	
+}
+
+.main{
+	width: 100%;
+   display:  flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.titulo{
+	font-size: 20px;
+	margin-top: 10vh;
+}
+.titulo-container{
+	margin-top: 5em;
+}
+.container-um{
+   display: flex;
+   flex-direction: column;
+	
+}
+.container-dois{
+	display: grid;
+	width: 75%;
+	grid-template-columns: auto auto auto auto;
+	margin-top: 4em;
+   	border-bottom: 1px solid black; 
+}
+#allcountry{
+	margin-top: 25px;
+	width: 500px;
+	height: 30px;
+	border: 1px solid black;
+	font-size: 19px;
+	 -webkit-appearance: none;
+    -moz-appearance:    none;
+     appearance:         none;
+}
+#btnEnviar{
+	
+	cursor: pointer;
+	margin-top: 25px;
+	border-left: none;
+}
+#bandeira{
+	margin-top: -90px;
+	width: 280px;
+	height: 200px;
+}
+#bandeira img{
+	width: 100%;
+	height: 100%;
+	
+}
+.cont{
+	display: block;
+	width: 200px;
+	height: 150px;
+	padding: 1.5em;
+}
+.um{
+	display: flex;
+	flex-direction: row;
+	margin-left: 60px;
+}
+.dois{
+	display: flex;
+	flex-direction: row;
+}
+.tipo{
+	padding-right: 0.7em; 
+	padding-left: 0.7em; 
+}
+#nome{
+	display: block;
+	width: 200px;
+}
+.pesquisa{
+	display: flex;
+	align-items: center;
+}
+.simbolo-span{
+	padding-left: 5px;
+}
+.menu{
+	position: absolute;
+	padding: 0.7em; 
+	top: 0;
+	left: 0;
+}
+.menu img{
+	cursor: pointer;
+}
+#menuzin{
+	display: none;
+}
+.eu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: red;
+	display: none;
+}
+input[type="checkbox"]:checked ~ * .eu{    
+   	display: block;
+  	animation: anima 1s;
+  	overflow: auto;
+    -webkit-animation-fill-mode: forwards;
+   background-color: rgba(10, 10, 10, 0.95);
+}
+
+.sobremim{
+   color: #fff;
+   padding-top: 15vh;
+}
+
+.sobremim img{
+	border-radius: 50%;
+}
+
+.curso{
+	display: block;
+	color: green;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+
+
+
+
+@keyframes anima {
+  0%   {width: 10vh; height: 10vh;}
+  100% {width: 207.5vh; height: 75vh;}
+}
+
+
